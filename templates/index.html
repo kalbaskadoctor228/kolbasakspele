@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalbaskas spēle 🌭</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="top-ui">
+    <h1>🌭 Kalbaskas spēle</h1>
+
+    <div class="scores">
+        <div>Score: <span id="score">0</span></div>
+        <div>Best: <span id="best">0</span></div>
+    </div>
+</div>
+
+<div id="game">
+    <div id="sausage">🌭</div>
+    <div id="ground"></div>
+
+    <div id="game-over">
+        <h2>GAME OVER</h2>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+</div>
+
+<script src="/static/game.js"></script>
+</body>
+</html>
